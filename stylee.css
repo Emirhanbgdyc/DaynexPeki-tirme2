@@ -1,0 +1,1957 @@
+
+body {
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333;
+    font-weight: 300;
+    overflow-x: hidden;
+}
+
+
+.container {
+    max-width: 1100px !important;
+}
+
+
+.header-logo{
+    width: 134px;
+    aspect-ratio: auto 134 / 30;
+    height: 30px;
+}
+
+.header .navbar.scrolled {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    
+}
+
+.navbar.scrolled .navbar-nav .nav-link {
+    color: #000;
+}
+
+.navbar.scrolled .logo-default {
+    display: none; 
+}
+
+.navbar.scrolled .logo-scroll {
+    display: block;
+}
+
+.header-logo {
+    display: none; 
+}
+
+.logo-default {
+    display: block; 
+}
+
+
+.navbar {
+    background-color: transparent;
+    border-bottom: none; 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar.scrolled .btn {
+    border: 1px solid #000; /* Button border color for scrolled state */
+    color: #000;
+}
+
+
+
+.navbar.bg-trang {
+    padding: 2.5rem 0;
+    background-color: transparent;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar-nav .dropdown-menu {
+    display: none;
+    opacity: 0;
+    transition: opacity 1.5s ease;
+}
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+}
+.navbar-nav .dropdown .dropdown-menu {
+    margin-top: 0;
+}
+
+
+#navbarSupportedContent span a:hover{
+    border: 2px solid #333;
+    color: white;
+    background-color: #333;
+}
+
+.navbar-collapse span a{
+    color: white;
+    border: 2px solid white;
+    width: 161px;
+    height: 41px;
+    /* margin-left: 150px; */
+}
+
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: space-around;
+}
+
+.navbar-nav .nav-item .nav-link{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 1rem 0;
+    color: white;
+
+}
+
+
+
+
+.dropdown-menu .dropdown-item{
+    color: black;
+    font-weight: 600;
+}
+
+.navbar-nav{
+    gap: 35px;
+}
+
+.section-one-title{
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+p.p-md {
+    font-size: 1.125rem;
+    color: white;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+
+
+#hero-two-text {
+    background-image: url(https://jthemes.net/themes/html/landpick/files/images/hero-2.png);
+    background-position: center bottom;
+    padding-top: 140px;
+    padding-bottom: 20px;
+}
+
+.hero-txt-btn .btn-theme {
+    background-color: #fa5876;
+    border: 2px solid #fa5876;
+    color: white;
+    width: 213.15px;
+    height: 52.8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.hero-txt-btn .btn-theme:hover{
+    
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+.bg-fixed {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.header-img {
+    max-width: 100%;
+    height: auto;
+    width: 540px;
+    height: 591px;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+/******************************  2 . BÖLÜM *************************************/
+
+
+
+.about-h3{
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+
+}
+
+.about-p{
+    padding: 0 18%;
+    margin-top: 15px;
+    margin-bottom: 0;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.section-text img{
+    width: 100px;
+    height: 100px;
+}
+
+.section-title-text{
+    text-align: center;
+}
+
+.section-two-box img{
+margin-top: 30px;
+}
+
+
+/******************************  3 . BÖLÜM *************************************/
+
+.pad-50 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.sbox-text{
+    display: flex;
+    align-items: center;
+}
+
+.align-items-center{
+    align-items: center !important;
+}
+
+.section-title-text .about-h3{
+    margin-top: 30px;
+
+}
+
+.content-img{
+    margin-top: 30px;
+}
+
+.content-text{
+    /* margin-top: 20px; */
+    margin-bottom: 30px;
+}
+
+/******************************  4 . BÖLÜM *************************************/
+
+.pad-60 {
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+    
+
+.content-5-text{
+    display: flex;
+    align-items: center;
+
+}
+
+    .menu-content-h3{
+        font-size:40px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    .menu-content-p{
+        margin-bottom: 30px;
+        font-size: 20px;
+        color: gray;
+    }
+
+.content-cbox-4-text span {
+    width: 22px;
+    height: 22px;
+    --webkit-border-radius: 100%;
+    --moz-border-radius: 100%;
+    border-radius: 100%;
+    position: absolute;
+    font-size: 0.75rem;
+    line-height: 22px;
+    text-align: center;
+    margin-left:-40px ;        
+    z-index: 999 !important;
+    color: white;
+
+}
+
+.content-cbox-4-text span svg{
+    width: 15px;
+}
+
+.theme-list .content-cbox-4-text span {
+    background-color: #fa5876;
+    width: 28px;
+    height: 28px;
+}
+
+.separator {
+    border: 2px solid #fa5876;
+    margin: 20px 0;
+    transform: rotate(90deg);
+    width: 140px;
+    margin-left: -55px;
+    margin-top: 65px;
+}
+
+.menu-content{
+    margin-top: 30%;
+}
+.separator3 {
+    border: 2px solid #fa5876;
+    margin: 20px 0;
+    transform: rotate(90deg);
+    width: 110px;
+    margin-left: -40px;
+    margin-top: 55px;
+}
+.text-nokta{
+    background-color: #fa5876;
+    border-radius: 100%;
+    margin-top: 50px;
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+}
+
+.content-7-img{
+    width: 960px;
+    height: 600px;
+
+}
+/******************************  5 . BÖLÜM *************************************/
+
+#section-seven{
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.section-seven-number{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.section-seven-500{
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+
+
+/******************************  6 . BÖLÜM *************************************/
+
+
+
+
+
+.blue-abstract{
+    background-image: url(https://jthemes.net/themes/html/landpick/files/images/blue-abstract.jpg);
+    background-position: top center;
+}
+.pb-100 {
+    padding-bottom: 100px;
+}
+.pt-100{
+    padding-top:100px ;
+}
+
+.section-eight-text{
+
+    text-align: center;
+    color: white;
+}
+
+.bg-scroll {
+    width: 100%;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 358.8px;
+}
+
+.section-eight-h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.section-eight-p{
+font-size: 24px;
+}
+
+
+.content-boxes {
+    position: relative;
+    z-index: 999;
+    background-color: #fff;
+    border: 1px solid #eee;
+    padding: 50px;
+    /* -webkit-border-radius: 6px;
+    -moz-border-radius: 6px; */
+    border-radius: 6px;
+    margin: 0 5% -100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.img-70 {
+    width: 70px;
+    height: 70px;
+}
+
+.section-eight-box img {
+    text-align: center;
+    float: left;
+}
+
+.content-card-text{
+    margin-left: 10%;
+}
+
+.section-eight-box-txt {
+    padding-left: 22px;
+}
+
+.content-card-h5{
+    color: #000;
+    margin-right: 35%;
+}
+.content-card-p{
+    color: #333;
+    /* width: 400px; */
+    text-align: center;
+}
+
+
+
+/******************************  7 . BÖLÜM *************************************/
+
+
+.section-3-text{
+    display: flex;
+    align-items: center;
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.top-img{
+    width:540px ;
+    height: 405px;
+}
+
+.img-bottom{
+    margin-top: 90px;
+}
+
+.h3-xs{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.section-nine-text{
+    margin-left: 45px;
+}
+
+.section-nine-text-2{
+    margin-top: 40px;
+}
+
+
+/******************************  8 . BÖLÜM *************************************/
+
+.section-ten-txt{
+    text-align: center;
+}
+
+.h3-md{
+    color: #000;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+.section-ten-txt .p-md{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+/******************************  9 . BÖLÜM *************************************/
+
+
+.section-ten-table{
+    margin-top: 20px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 50px 30px 60px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+
+}
+
+.section-ten-title h4{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.features li{
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.section-ten-plan{
+    text-align: center;
+}
+
+.section-ten-plan .price{
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.section-ten-plan .section-ten-coins{
+    font-size: 50px;
+}
+
+.section-ten-plan sup{
+    font-size: 50px;
+}
+
+.section-ten-plan .white-color {
+    color:gray;
+    text-transform: uppercase;
+}
+
+.section-ten-table .btn-tra-white{
+    width: 180.26px;
+    height: 46.8px;
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    
+}
+
+.section-ten-table .black-hover:hover{
+    color: white;
+    background-color: #000;
+}
+
+.section-ten-table .btn-theme{
+    color: white;
+    background-color:#fa5876 ;
+    border: 2px solid #fa5876;
+    width: 180.26px;
+    height: 46.8px;
+    text-align: center;
+    font-weight: 500;
+    line-height: inherit;
+    
+}
+
+.section-ten-table .theme-hover:hover {
+    color: #fff;
+    background-color: #e8526e;
+    border-color: #e8526e;
+}
+
+/******************************  9 . BÖLÜM *************************************/
+
+.wide-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+#Gallery{
+    background-image: url(https://jthemes.net/themes/html/landpick/files/images/dotted-map.png);
+}
+
+.Gallery-text{
+    text-align: center;
+}
+
+.Gallery-text .Gallery-p{
+    color: #000;
+    width:850px;
+}
+
+.Gallery-txt {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #eee;
+    padding: 35px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(20, 20, 20, .15);
+    margin-top: 40px;
+    width: 405px;
+    height: 178px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+#Gallery img {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    left: -40px;
+    top: -40px;
+    border-radius: 50%;
+}
+
+.Gallery-txt span a{
+    text-decoration: none;
+    color: gray;
+}
+
+.col-md-6{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.Gallery-txt p {
+    color: #555;
+    font-size: 1.1rem;
+    line-height: 1.45;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+.mt-60{
+    margin-top: 60px;
+}
+
+
+/******************************  9 . BÖLÜM *************************************/
+
+#Gallery-2-menu{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.owl-carousel .item img{
+    width: 222px;
+ }
+
+
+/******************************  10 . BÖLÜM *************************************/
+
+.bg-dark-2{
+    background-color: #283034;
+}
+
+.section-eleven-wrapper .section-eleven-img img{
+    width: 729px;
+    height: 685px;
+}
+
+.section-eleven-text{
+    color: white;
+    padding: 50px;
+    margin-top: 10%;
+    margin-left: 30px;
+}
+
+.section-eleven-h5{
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.section-eleven-h4{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+/******************************  11 . BÖLÜM *************************************/
+
+#section-twelve{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.section-twelve-text{
+    text-align: center;
+}
+
+.section-twelve-h3{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.section-twelve-p {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 650px;
+    margin: 0 auto; /* Yatayda merkezlemek için */
+    color: #B6B4B3;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-header .toggle-icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+.cardd .card-header .toggle-icon{
+    font-size: 30px;
+}
+
+#accordion{
+    margin-top: 30px;
+}
+
+.cardd .card-header .toggle-text{
+    margin-left: 680px;
+}
+
+.cardd .card-header .toggle-text-2{
+    margin-left: 565px;
+}
+.cardd .card-header .toggle-text-3{
+    margin-left: 550px;
+}
+
+.cardd .card-header .toggle-text-4{
+    margin-left: 475px;
+}
+.cardd .card-header .toggle-text-5{
+    margin-left: 495px;
+}
+
+
+.tex-paraf{
+    padding-bottom: 100px;
+}
+
+.tex-paraf-text{
+    text-align: center;
+    font-size: 20px;
+}
+.tex-paraf-text .strong{
+    color: black;
+    font-weight: 600;
+    text-decoration: underline;
+
+    
+}
+
+
+/******************************  12 . BÖLÜM *************************************/
+
+.p-100{
+    
+    margin-bottom: 100px;
+}
+
+.bg-in-bottom{
+    background-image: url(https://jthemes.net/themes/html/landpick/files/images/blue-abstract.jpg);
+    background-attachment: fixed !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+}
+
+.section-twenteen-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+
+.section-twenteen-text .section-twenteen-h3{
+    margin-top: 40px;
+    color: white;
+    
+    }
+
+
+.section-twenteen-text .section-twenteen-p{
+margin-top: 25px;
+color: white;
+width: 600px;
+}
+
+.section-twenteen-btn .btn-theme{
+    background-color: #fa5876;
+    border: 2px solid #fa5876;
+    color: white;
+    width: 213.15px;
+    height: 52.8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.section-twenteen-btn .btn-theme:hover{
+
+    border: 2px solid white;
+    color: white;
+
+}
+
+/******************************  13 . BÖLÜM *************************************/
+
+#section-fourteen{
+    padding-bottom: 20px;
+}
+
+.section-fourteen-text {
+   text-align: center;
+}
+
+.section-fourteen-p {
+    width: 700px;
+    text-align: center; /* Center text within the paragraph */
+    margin-left: 10%;
+}
+
+.section-fourteen-h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.section-fourteen-blog{
+
+    background-color: #fff;
+    border: 1px solid #f0f0f0;
+    padding: 35px 0 0;
+    border-radius: 6px;
+    box-shadow: 0 0 15px rgba(30, 30, 30, .1);
+    margin-bottom: 40px;
+    height: 502px;
+    width: 350px;
+    
+}
+
+
+.section-fourteen-img img{
+        width: 348px;
+        height: 261px;
+}
+
+.section-fourteen-blog-text span{
+    margin-left: 20px;
+    color: #B6B4B3;
+}
+.section-fourteen-blog-text h5{
+    margin-left: 20px;
+    font-size: 25px;
+    width: 320px;
+}
+.section-fourteen-blog-text p{
+    margin-left: 20px;
+    color: #555;
+}
+
+.section-fourteen-blog-text .section-fourteen-icon{
+    color: #000;
+    
+}
+
+.section-fourteen-blog-text .section-fourteen-icon2{
+    color: #000;
+    font-size: 25px;
+    margin-left: 60%;
+}
+
+
+.blog-text{
+    padding-bottom: 70px;
+}
+
+.blog-text-2{
+    text-align: center;
+    
+}
+
+.blog-text-2 a{
+    color: #000;
+    font-size: 20px;
+}
+
+
+
+
+/******************************  14 . BÖLÜM *************************************/
+
+#section-fiveteen{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-fiveteen-text{
+    text-align: center;
+}
+
+
+.section-fiveteen-wrapper{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.section-fiveteen-h3{
+    font-size: 40px;
+    color: #000;
+    font-weight: 700;
+}
+
+.section-fiveteen-p{
+    padding: 0 18%;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.form-holder{
+
+    margin-top: 30px;
+}
+
+
+.form-holder .form-control-name{
+    width: 352px;
+    height: 50px;
+}
+
+.form-holder .form-control-name:hover{
+    border: 1px solid red;
+    transition: .2s;
+}
+
+.form-holder .form-control-email{
+    width: 340px;
+    height: 50px;
+}
+
+.form-holder .form-control-email:hover{
+    border: 1px solid red;
+    transition: .2s;
+}
+
+.form-holder .input-subject{
+    margin-top: 20px;
+}
+
+.contact-form .custom-select {
+    display: inline-block;
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    width: 100%;
+    height: 56px;
+    line-height: 1;
+    color: #444;
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 0 15px;
+    margin-bottom: 25px;
+    box-shadow: 0;
+    border-radius: 4px;
+}
+
+.contact-form .custom-select:hover{
+    border: 1px solid red;
+}
+
+.form-btn-text .btn-themee{
+    background-color: #fa5876;
+    border: 2px solid #fa5876;
+    color: white;
+    width: 213.15px;
+    height: 52.8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin-top: 40px;
+
+}
+
+.form-btn-text .btn-themee:hover{
+    background-color: #fa5876;
+    color: white;
+}
+
+
+/******************************  15 . BÖLÜM *************************************/
+
+#section-sexteen{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.section-sexteen-img img{
+    width: 134px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.section-sexteen-icon{
+    font-size: 15px;
+    color: #555;
+}
+
+.section-sexteen-icon .icon1{
+   margin-right: 10px;
+}
+.section-sexteen-icon .icon2{
+    margin-right: 10px;
+ }
+ .section-sexteen-icon .icon3{
+    margin-right: 10px;
+ }
+
+ .newsletter-form{
+    width: 201px;
+    height: 48px;
+    margin-top: 20px;
+ }
+
+/******************************  16 . BÖLÜM *************************************/
+
+#footer-bottom{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-copyright{
+    float: right;
+}
+
+ .footer-copyright span a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+ }
+
+/******************************  MOBİLE TARAFIDIR *************************************/
+
+
+@media only screen and (max-width: 390px){
+
+    .content-img{
+        margin-top: 275px;
+   }
+   .Gallery-text .Gallery-p{
+    width: 350px;
+    margin-left: 20px;
+    font-size: 15px;
+   }
+
+   .img-70{
+    width: 40px;
+   }
+
+   .content-card-h5{
+    font-size: 15px;
+   }
+
+   .section-title-text .about-h3{
+    font-size: 25px;
+   }
+   .section-title-text .about-p{
+    width: 500px;
+    margin-left: -40px;
+    margin-bottom: 50px;
+   }
+   
+   .section-seven-number{
+    margin-left: 35%;
+   }
+
+   .section-seven-500{
+    margin-left: 37%;
+   }
+
+    .texting-img{
+        margin-top: 40px;
+    }
+
+    .menu-content .menu-content-h3{
+        font-size: 25px;
+        margin-top: -100px;
+    }
+
+    .content-7-img {
+        margin-top: 30px;
+    }
+
+   .section-eight-text .section-eight-h3{
+    font-size: 25px;
+   }
+
+
+   .section-eight-p {
+    font-size: 16px;
+}
+    
+.blue-abstract{
+    height: 50vh;
+}
+
+   .Gallery-text .Gallery-h3{
+    font-size: 20px;
+   }
+   .Gallery-text .Gallery-p{
+    font-size: 13px;
+    width: 275px;
+   }
+
+   .Gallery-txt{
+    margin-left: 10%;
+    width: 275px;
+    height: 200px;
+   }
+
+    .section-eleven-text .section-eleven-h4{
+        font-size: 25px;
+    }
+
+    .owl-stage-outer{
+        margin-left: 80px;
+    }
+
+
+   .section-twelve-text .section-twelve-p{
+    width: 260px;
+    margin-left: 30px;
+    margin-top: 20px;
+   }
+
+   .section-twelve-text .section-twelve-h3{
+    font-size: 25px;
+   }
+
+
+
+   .cardd .card-header .toggle-text {
+      
+    margin-left: 155px;
+}
+
+.cardd .card-header .toggle-text-2 {
+    
+    margin-left: 75px;
+}
+
+.cardd .card-header .toggle-text-5 {
+    
+    margin-left: 25px;
+}
+
+.card-header h5{
+    font-size: 14px;
+}
+
+
+.cardd .card-header .toggle-text-3 {
+    
+    margin-left: 65px;
+}
+.cardd .card-header .toggle-text-4 {
+   
+   margin-left: 10px;
+}
+
+    .tex-paraf-text span{
+        font-size: 15px;
+    }
+
+
+
+    .section-fourteen-text .section-fourteen-p{
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    
+    .section-fourteen-text .section-fourteen-h3{
+        font-size: 25px;
+    }
+
+  
+
+    .blog-text-2 a{
+        font-size: 18px;
+    }
+
+    .section-fiveteen-text .section-fiveteen-h3{
+        font-size: 25px;
+    }
+
+    .bg-in-bottom {
+        height: 40vh;
+    }
+
+    .section-twenteen-text .section-twenteen-p{
+        width: 300px;
+        margin-left: 10px;
+    }
+
+    .section-twenteen-text .section-twenteen-h3{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .section-twenteen-btn .btn-theme{
+        
+        margin-left: 30px;
+    }
+
+    .form-holder .form-control-name{
+        margin-bottom: 30px;
+        width: 310px;
+    }
+    .form-holder .form-control-email{
+        
+        width: 310px;
+    }
+
+
+    .footer-copyright{
+        margin-right: 30px;
+    }
+
+    .section-sexteen-icon{
+        margin-bottom: 20px;
+    } 
+
+
+
+    
+
+
+}
+
+
+
+
+
+@media only screen and (min-width: 390px) and (max-width: 450px){
+
+    
+    .content-img{
+        margin-top: 450px;
+   }
+   .Gallery-text .Gallery-p{
+    width: 350px;
+    margin-left: 20px;
+    font-size: 15px;
+   }
+
+
+   .section-title-text .about-h3{
+    font-size: 25px;
+   }
+   .section-title-text .about-p{
+    width: 500px;
+    margin-left: -40px;
+    margin-bottom: 50px;
+   }
+   
+   .section-seven-number{
+    margin-left: 35%;
+   }
+
+   .section-seven-500{
+    margin-left: 37%;
+   }
+
+    .texting-img{
+        margin-top: 40px;
+    }
+
+    .menu-content .menu-content-h3{
+        font-size: 25px;
+        margin-top: -100px;
+    }
+
+    .content-7-img {
+        margin-top: 30px;
+    }
+
+   .section-eight-text .section-eight-h3{
+    font-size: 25px;
+   }
+
+
+   .section-eight-p {
+    font-size: 16px;
+}
+    
+.blue-abstract{
+    height: 50vh;
+}
+
+   .Gallery-text .Gallery-h3{
+    font-size: 20px;
+   }
+   .Gallery-text .Gallery-p{
+    font-size: 13px;
+    margin-left: 5px;
+   }
+
+   .Gallery-txt{
+    margin-left: 10%;
+    width: 320px;
+   }
+
+    .section-eleven-text .section-eleven-h4{
+        font-size: 25px;
+    }
+
+    .owl-stage-outer{
+        margin-left: 80px;
+    }
+
+
+   .section-twelve-text .section-twelve-p{
+    width: 260px;
+    margin-right: 50px;
+   }
+
+   .section-twelve-text .section-twelve-h3{
+    font-size: 25px;
+   }
+
+
+
+   .cardd .card-header .toggle-text {
+      
+    margin-left: 190px;
+}
+
+.cardd .card-header .toggle-text-2 {
+    
+    margin-left: 105px;
+}
+
+.cardd .card-header .toggle-text-5 {
+    
+    margin-left: 49px;
+}
+
+.card-header h5{
+    font-size: 15px;
+}
+
+
+.cardd .card-header .toggle-text-3 {
+    
+    margin-left: 90px;
+}
+.cardd .card-header .toggle-text-4 {
+   
+   margin-left: 30px;
+}
+
+    .tex-paraf-text span{
+        font-size: 15px;
+    }
+
+
+
+    .section-fourteen-text .section-fourteen-p{
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    
+    .section-fourteen-text .section-fourteen-h3{
+        font-size: 25px;
+    }
+
+    .section-fourteen-blog {
+        margin-left: 3%;
+    }
+
+    .blog-text-2 a{
+        font-size: 18px;
+    }
+
+    .section-fiveteen-text .section-fiveteen-h3{
+        font-size: 25px;
+    }
+
+    .bg-in-bottom {
+        height: 40vh;
+    }
+
+    .section-twenteen-text .section-twenteen-p{
+        width: 350px;
+        margin-left: 10px;
+    }
+
+    .section-twenteen-text .section-twenteen-h3{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .section-twenteen-btn .btn-theme{
+        
+        margin-left: 30px;
+    }
+
+    .form-holder .form-control-name{
+        margin-bottom: 30px;
+    }
+    .footer-copyright{
+        margin-right: 30px;
+    }
+
+    .section-sexteen-icon{
+        margin-bottom: 20px;
+    } 
+
+
+
+}
+
+
+@media only screen and (min-width: 450px) and (max-width: 576px){
+
+    .content-img{
+        margin-top: 450px;
+   }
+   .Gallery-text .Gallery-p{
+    width: 350px;
+    margin-left: 20px;
+    font-size: 15px;
+   }
+
+
+   .section-title-text .about-h3{
+    font-size: 25px;
+   }
+   .section-title-text .about-p{
+    width: 500px;
+    margin-left: -40px;
+    margin-bottom: 50px;
+   }
+   
+   .section-seven-number{
+    margin-left: 35%;
+   }
+
+   .section-seven-500{
+    margin-left: 37%;
+   }
+
+    .texting-img{
+        margin-top: 40px;
+    }
+
+    .menu-content .menu-content-h3{
+        font-size: 25px;
+        margin-top: -100px;
+    }
+
+    .content-7-img {
+        margin-top: 30px;
+    }
+
+   .section-eight-text .section-eight-h3{
+    font-size: 25px;
+   }
+
+
+   .section-eight-p {
+    font-size: 16px;
+}
+    
+.blue-abstract{
+    height: 50vh;
+}
+
+   .Gallery-text .Gallery-h3{
+    font-size: 20px;
+   }
+
+   .Gallery-txt{
+    margin-left: 10%;
+    width: 350px;
+   }
+
+   .section-twelve-text .section-twelve-p{
+    width: 400px;
+   }
+
+   .section-twelve-text .section-twelve-h3{
+    font-size: 30px;
+   }
+
+
+
+   .cardd .card-header .toggle-text {
+      
+    margin-left: 220px;
+}
+
+.cardd .card-header .toggle-text-2 {
+    
+    margin-left: 115px;
+}
+
+.cardd .card-header .toggle-text-5 {
+    
+    margin-left: 50px;
+}
+
+.card-header h5{
+    font-size: 18px;
+}
+
+
+.cardd .card-header .toggle-text-3 {
+    
+    margin-left: 100px;
+}
+.cardd .card-header .toggle-text-4 {
+   
+   margin-left: 30px;
+}
+
+    .tex-paraf-text span{
+        font-size: 18px;
+    }
+
+
+
+    .section-fourteen-text .section-fourteen-p{
+        width: 300px;
+        margin-left: 50px;
+    }
+
+    
+    .section-fourteen-text .section-fourteen-h3{
+        font-size: 30px;
+    }
+
+    .section-fourteen-blog {
+        margin-left: 8%;
+    }
+
+    .blog-text-2 a{
+        font-size: 18px;
+    }
+
+    .section-fiveteen-text .section-fiveteen-h3{
+        font-size: 25px;
+    }
+
+    .bg-in-bottom {
+        height: 40vh;
+    }
+
+    .section-twenteen-text .section-twenteen-p{
+        width: 400px;
+        margin-left: 30px;
+    }
+
+    .section-twenteen-text .section-twenteen-h3{
+        
+        margin-left: 30px;
+    }
+
+    .section-twenteen-btn .btn-theme{
+        
+        margin-left: 30px;
+    }
+
+    .form-holder .form-control-name{
+        margin-bottom: 30px;
+    }
+    .footer-copyright{
+        margin-right: 30px;
+    }
+
+    .section-sexteen-icon{
+        margin-bottom: 20px;
+    } 
+
+
+
+
+}
+
+
+@media only screen and (min-width:576px) and (max-width:768px){
+
+   .content-img{
+        margin-top: 150px;
+   }
+   .Gallery-text .Gallery-p{
+    width: 500px;
+    margin-left: 20px;
+   }
+
+   .Gallery-text .Gallery-h3{
+    font-size: 30px;
+   }
+
+   .Gallery-txt{
+    margin-left: 15%;
+   }
+
+   .section-twelve-text .section-twelve-p{
+    width: 400px;
+   }
+
+   .section-twelve-text .section-twelve-h3{
+    font-size: 30px;
+   }
+
+   .cardd .card-header .toggle-text {
+      
+    margin-left: 320px;
+}
+
+.cardd .card-header .toggle-text-2 {
+    
+    margin-left: 205px;
+}
+
+.cardd .card-header .toggle-text-5 {
+    
+    margin-left: 135px;
+}
+.cardd .card-header .toggle-text-3 {
+    
+    margin-left: 190px;
+}
+.cardd .card-header .toggle-text-4 {
+   
+   margin-left: 110px;
+}
+
+    .section-fourteen-text .section-fourteen-p{
+        width: 400px;
+        margin-left: 80px;
+    }
+
+    
+    .section-fourteen-text .section-fourteen-h3{
+        font-size: 30px;
+    }
+
+    .section-fourteen-blog {
+        margin-left: 20%;
+    }
+
+    .bg-in-bottom {
+        height: 40vh;
+    }
+
+    .section-twenteen-text .section-twenteen-p{
+        width: 500px;
+        margin-left: 30px;
+    }
+
+    .section-twenteen-text .section-twenteen-h3{
+        
+        margin-left: 30px;
+    }
+
+    .section-twenteen-btn .btn-theme{
+        
+        margin-left: 30px;
+    }
+
+    .form-holder .form-control-name{
+        margin-bottom: 30px;
+    }
+    .footer-copyright{
+        margin-right: 100px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+   
+    .content-7-img img{
+        width: 300px;
+        height: 200px;
+        margin-top: 30%;
+    }
+    .section-ten-plan .price{
+        font-size: 45px;
+    }
+
+    .section-ten-plan sup{
+        font-size: 35px;
+    }
+
+    .section-ten-plan .section-ten-coins{
+        font-size: 35px;
+    }
+
+    .features{
+        font-size: 13px;
+        width: 250px;
+        
+    }
+    
+    .features li {
+        display: flex;
+        align-items: center;      
+        margin-right: 45px;
+       
+    }
+
+    .section-ten-plan .grey-color{
+        color: #000;
+        font-size: 15px;
+    }
+
+    .Gallery-txt {
+        position: relative;
+        background-color: #fff;
+        border: 1px solid #eee;
+        padding: 35px;
+        margin-right: 20px;
+        margin-left: 50px;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(20, 20, 20, .15);
+        margin-top: 40px;
+        width: 260px;
+        height: 215px;
+    }
+
+    .Gallery-text .Gallery-p{
+        padding: 0 20%;
+        margin-top: 15px;
+        margin-bottom: 0;
+        margin-left: -40px;
+     }
+    
+     .owl-carousel .item img{
+        width: 170px;
+     }
+
+    .section-eleven-wrapper .section-eleven-img img{
+        height: 500px;
+        margin-top: 30%;
+    }
+    .section-eleven-h4{
+        font-size: 20px;
+        margin-left: -60px;
+    } 
+    .section-eleven-h5{
+        margin-left: -60px;
+    }
+    .section-eleven-p{
+        width: 300px;
+        margin-left: -60px;
+    }
+    
+    .cardd .card-header .toggle-text {
+        margin-left: -1%;
+        margin-left: 515px;
+    }
+
+    .cardd .card-header .toggle-text-2 {
+        margin-left:-1%;
+        margin-left: 400px;
+    }
+
+    .cardd .card-header .toggle-text-5 {
+        margin-left:-1%;
+        margin-left: 330px;
+    }
+    .cardd .card-header .toggle-text-3 {
+        margin-left: -1%;
+        margin-left: 380px;
+    }
+    .cardd .card-header .toggle-text-4 {
+       margin-left: -1%;
+       margin-left: 300px;
+    }
+    .bg-in-bottom{
+        height: 280px;
+    }
+
+    .section-twenteen-text{
+        text-align: center;
+    }
+    .section-twenteen-p{
+        margin-left: 80px;
+    }
+
+    .section-twenteen-btn {
+        margin-left: 35%;
+    }
+    .section-fourteen-p{
+        text-align: center;
+        width: 600px;
+    }
+
+    .form-holder .form-control-email{
+        margin-top: 20px;
+    }
+
+    .section-sexteen-wrapper{
+        margin-left: 50px;
+    }
+
+}
+ 
+@media only screen and (min-width: 991px) and (max-width: 1200px){
+
+    .content-7-img img{
+        width: 450px;
+        height:600px;
+        margin-top: 60px;
+    }
+
+    .menu-content{
+        margin-left: 40px;
+    }
+
+    .menu-content-h3{
+        font-size: 30px;
+    }
+    .menu-content-p{
+        font-size: 18px;
+        width: 400px;
+    }
+
+    .cardd .card-header .toggle-text {
+      
+        margin-left: 580px;
+    }
+
+    .cardd .card-header .toggle-text-2 {
+        
+        margin-left: 465px;
+    }
+
+    .cardd .card-header .toggle-text-5 {
+        
+        margin-left: 390px;
+    }
+    .cardd .card-header .toggle-text-3 {
+        
+        margin-left: 445px;
+    }
+    .cardd .card-header .toggle-text-4 {
+       
+       margin-left: 370px;
+    }
+
+    .section-twenteen-btn .btn-theme{
+        width: 175px;
+        height: 52px;
+    }
+
+    .section-fourteen-blog {
+        background-color: #fff;
+        border: 1px solid #f0f0f0;
+        padding: 35px 0 0;
+        border-radius: 6px;
+        box-shadow: 0 0 15px rgba(30, 30, 30, .1);
+        margin-bottom: 40px;
+        height: 465px;
+        width: 310px;
+    }
+
+    .section-fourteen-blog-text h5 {
+        margin-left: 20px;
+        font-size: 20px;
+        width: 250px;
+    }
+    .section-fourteen-img img{
+        width: 308px;
+        height: 231px;
+    }
+
+    .section-fourteen-icon2 i{
+        margin-left: -20px;
+        
+    }
+
+    
+    .form-holder .form-control-name{
+        margin-left: 20px;
+        width: 290px;
+        height: 52px;
+    }
+
+
+    .form-holder .form-control-email{
+        margin-left: 20px;
+        width: 290px;
+        height: 52px;
+    }
+
+}
